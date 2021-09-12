@@ -74,7 +74,8 @@
     height: 100%;
     width: 100%;
     overflow: scroll;
-    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(240, 240, 240); */
+    background-color: #0b1229;
   }
   
   .chat-title-container {
@@ -106,6 +107,13 @@
   .message-block {
     width: 100%;
     display: inline-block;
+    /* border: 1px solid red;   (spans the whole width) */
+  }
+
+  .message-sender {
+  color: blueviolet;
+  font-size: small;
+  font-style: italic;  
   }
   
   .message-avatar {
@@ -123,7 +131,9 @@
     padding: 12px;
     font-size: 16px;
     border-radius: 6px;
-    max-width: 60%;
+    max-width: 60%; 
+    border: 1px solid white;
+    
   }
   
   .message-image {

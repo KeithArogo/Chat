@@ -7,7 +7,7 @@
 // }
 
 // export default MessageForm;
-const MyMessage = ({ message }) => {
+const MyMessage = ({ message }) => { //mapping function
     if (message.attachments && message.attachments.length > 0) {
       return (
         <img
