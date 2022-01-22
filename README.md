@@ -2,6 +2,9 @@
 Personal Chat App built using Chat Engine and ReactJs.
 Chat Engine is a devevloper friendly Chat UI Kit.
 
+## Chat Engine
+[click here](https://chatengine.io/) for an in depth view.
+
 ## npm install
 This while install all packages and dependencies needed for the app to function as intended.
 
